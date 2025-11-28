@@ -7,7 +7,6 @@ from datetime import datetime
 import config
 
 class Spinner:
-    """一个在控制台转圈圈的类，缓解等待焦虑"""
     def __init__(self, message="Processing..."):
         self.message = message
         self.spinning = False

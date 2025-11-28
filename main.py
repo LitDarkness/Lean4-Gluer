@@ -46,7 +46,6 @@ def run_lean_verification(code):
     start = time.time()
     
     try:
-        # Windows 下有时需要 shell=True 或者指定编码
         result = subprocess.run(
             ["lake", "env", "lean", config.TEMP_FILE_NAME],
             cwd=config.LEAN_PROJECT_PATH,
