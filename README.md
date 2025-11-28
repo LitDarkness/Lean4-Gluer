@@ -23,7 +23,7 @@
 ### 2. 克隆项目
 ```bash
 git clone https://github.com/LitDarkness/Lean4-Gluer
-cd Lean-Gluer
+cd Lean4-Gluer
 ```
 
 ### 3. 安装依赖
